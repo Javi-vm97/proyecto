@@ -101,6 +101,12 @@ ul.nav-items {
   padding: 8px;
   width: 100%;
 }
+.inFoContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
 
 /*Estilos menu*/
 .inFocontent{
