@@ -97,7 +97,18 @@ ul.nav-items {
   font-size: 25px;
   margin: 5px 0 10px 0;
 }
+.infoContent .block{
+  padding: 8px;
+  width: 100%;
+}
 
+/*Estilos menu*/
+.inFocontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
 ul.nav-items li {
     display: block;
 }
