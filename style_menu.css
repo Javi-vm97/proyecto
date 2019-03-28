@@ -78,10 +78,10 @@ ul.nav-items {
 
 /*Al hacer clic sobre el enlace que abre el menú éste desaparece*/
 
-.close { 
+.close {
    display:none;
 }
-        
+
 #navigation:target .open {
       display: none;
 }
@@ -91,8 +91,12 @@ ul.nav-items {
 #navigation:target .close {
         display: block;
 }
-  
+
 /*Estilos menu*/
+.infoContent .block h3{
+  font-size: 25px;
+  margin: 5px 0 10px 0;
+}
 
 ul.nav-items li {
     display: block;
@@ -128,10 +132,3 @@ ul.nav-items li a span {
 #SharePoint a span {
     border-color: #639bf2;
 }
-
-
-
-
-
-
-
